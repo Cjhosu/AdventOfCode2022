@@ -12,7 +12,7 @@ match_list = [ i.replace(' ','') for i in match_list]
 for i in match_list:
     score += score_sheet[i]
 
-print(score)    
+print(score)
 
 # part two
 
@@ -22,4 +22,4 @@ score = 0
 for i in match_list:
     score += altered_score_sheet[i]
 
-print(score)    
+print(score)
