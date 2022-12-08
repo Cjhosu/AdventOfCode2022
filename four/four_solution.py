@@ -6,7 +6,6 @@ with open('four_input') as file:
     for line in file:
         zone_pairs.append(line.strip('\n').split(','))
 
-
 ws = []
 for pair in zone_pairs:
     for section_range in pair:
@@ -21,8 +20,6 @@ for pair in zone_pairs:
     ws = []
 
 print(counter)
-
-
 
 # part two
 
